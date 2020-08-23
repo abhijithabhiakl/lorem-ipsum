@@ -6,7 +6,8 @@
 h1
 {
     font-family: 'Montserrat-black', sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: bold;
     line-height: 1.25;
     
 
@@ -18,11 +19,12 @@ h1
 }
 .container-fluid
 {
-    padding: 3% 15% 3%;
+    padding: 3% 10% 3%;
 }
 .rotate 
 {
     transform: rotate(25deg);
+    width: 60%;
 }
 .navbar
 {
@@ -34,7 +36,33 @@ h1
     font-size: 2.5rem;
     font-weight: bold  ;
 }
-.dwld-btn
+.door
 {
-    
+   margin: 5% 3% 5% 0%; 
+}
+#features
+{
+    padding: 7% 15%;
+}
+.feature-box
+{
+    text-align: center;
+    padding:5%;
+}
+h3
+{
+    font-family: 'montserrat-bold', sans-serif;
+}
+p
+{
+    color: #8f8f8f;
+}
+.icon
+{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover
+{
+    color: #ff4c68;
 }

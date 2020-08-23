@@ -1,6 +1,7 @@
 #title   
 {
     background-color: #ff4c68;
+    color : #ffffff
 }
 h1
 {
@@ -12,9 +13,28 @@ h1
 }
  body
 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 .container-fluid
 {
     padding: 3% 15% 3%;
+}
+.rotate 
+{
+    transform: rotate(25deg);
+}
+.navbar
+{
+    padding:0 0 4.5rem;
+}
+.navbar-brand
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold  ;
+}
+.dwld-btn
+{
+    
 }

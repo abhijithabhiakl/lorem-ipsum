@@ -37,7 +37,7 @@ body {
   padding: 5%;
 }
 h3 {
-  font-family: "montserrat-bold", sans-serif;
+  font-fami ly: "montserrat-bold", sans-serif;
 }
 p {
   color: #8f8f8f;
@@ -51,10 +51,13 @@ p {
 }
 /* testimonials */
 #testimonials {
-  padding: 7% 15%;
+ 
   text-align: center;
   background-color: #ef8172;
   color: #ffffff;
+}
+.carousel-item{
+  padding: 7% 15%;
 }
 h2{
     font-family: "montserrat-bold", sans-serif;

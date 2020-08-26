@@ -55,55 +55,77 @@ p {
 }
 /* testimonials */
 #testimonials {
- 
   text-align: center;
   background-color: #ef8172;
   color: #ffffff;
 }
-.carousel-item{
+.carousel-item {
   padding: 7% 15%;
 }
-h2{
-    font-family: "montserrat-bold", sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
+h2 {
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
 }
-.testi{
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
+.testi {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
-#press{
-     background-color: #ef8172;
-     text-align: center;
-     padding-bottom: 4%;
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 4%;
 }
 .press-logo {
-    width: 12%;
-    margin: 20px 20px 50px;
+  width: 12%;
+  margin: 20px 20px 50px;
 }
-.nav-item{
-  padding: 0 18px  ;
+.nav-item {
+  padding: 0 18px;
 }
-.nav-link{
-   font-size: 1.2rem ;
-   font-family: "montserrat-light", sans-serif; 
-} 
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "montserrat-light", sans-serif;
+}
 
-#pricing{
+#pricing {
   text-align: center;
   padding: 100px;
 }
-.card-body{
+.card-body {
   padding: 3% 2%;
 }
-@media (max-width:1028px){
-  .iphone{
+@media (max-width: 1028px) {
+  .iphone {
     position: static;
     transform: rotate(0deg);
   }
-  #title{
+  #title {
     text-align: center;
   }
+}
+#cta{
+  text-align: center;
   
+  color: #ffffff;
+  background-color:#ff4c68;
+  padding: 5% 4% 2%;
+}
+.ctacta{
+  font-size: 3rem;
+  font-family: "montserrat-bold", sans-serif;
+  font-weight: bold;
+  padding: 0 20% 0;
+}
+#footer{
+  text-align: center;
+  margin-top: 5%;
+}
+.ico{
+  padding: 0 0.5% 0.5%;
+  opacity: 0.8;
+}
+.copy{
+  opacity: 0.5;
 }

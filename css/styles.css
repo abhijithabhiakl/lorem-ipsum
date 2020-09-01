@@ -1,15 +1,32 @@
-#title {
-  background-color: #ff4c68;
-  color: #ffffff;
-}
+/* heading */
+
 h1 {
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  font-family: "montserrat-bold", sans-serif;
+}
+p {
+  color: #8f8f8f;
+}
+h2 {
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.lg-head{
+
   font-family: "Montserrat-black", sans-serif;
   font-size: 4rem;
   font-weight: bold;
   line-height: 1.25;
+  text-align: left;
 }
-body {
-  font-family: "Montserrat", sans-serif;
+#title {
+  background-color: #ff4c68;
+  color: #ffffff;
 }
 .container-fluid {
   padding: 3% 10% 10%;
@@ -40,12 +57,7 @@ body {
   text-align: center;
   padding: 5%;
 }
-h3 {
-  font-family: "montserrat-bold", sans-serif;
-}
-p {
-  color: #8f8f8f;
-}
+
 .icon {
   color: #ef8172;
   margin-bottom: 1rem;
@@ -62,11 +74,7 @@ p {
 .carousel-item {
   padding: 7% 15%;
 }
-h2 {
-  font-family: "montserrat-bold", sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-}
+
 .testi {
   width: 10%;
   border-radius: 100%;
@@ -96,21 +104,16 @@ h2 {
 .card-body {
   padding: 3% 2%;
 }
-@media (max-width: 1028px) {
-  .iphone {
-    position: static;
-    transform: rotate(0deg);
-  }
+
   #title {
     text-align: center;
   }
-}
 #cta{
   text-align: center;
   
   color: #ffffff;
   background-color:#ff4c68;
-  padding: 5% 4% 2%;
+  padding: 7% 15% 7%;
 }
 .ctacta{
   font-size: 3rem;
@@ -120,7 +123,7 @@ h2 {
 }
 #footer{
   text-align: center;
-  margin-top: 5%;
+  padding:6% 15% 6%;
 }
 .ico{
   padding: 0 0.5% 0.5%;
@@ -129,3 +132,14 @@ h2 {
 .copy{
   opacity: 0.5;
 }
+
+@media (max-width: 1028px) {
+  .iphone {
+    position: static;
+    transform: rotate(0deg);
+    right: 1%;
+    }
+    .lg-head{
+      text-align: center;
+    }
+  }
